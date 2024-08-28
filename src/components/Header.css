@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f2f2f2; /* Light gray background */
+    border-bottom: 1px solid #ccc; /* Optional: adds a subtle border */
+}
+
+.logo {
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for the logo */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px; /* Adjust width as necessary */
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black; /* Text color */
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
